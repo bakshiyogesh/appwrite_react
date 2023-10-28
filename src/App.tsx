@@ -4,7 +4,7 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 console.log(import.meta.env.VITE_APPWRITE_URL);
-
+//To chnage environment file first we have to close and restart app again.
   return (
     <>
       <div>
